@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Curly Trains</title>
+</head>
+<body>
+    <script src="https://unpkg.com/vue@next"></script>
+    <div id="app">{{text}}</div>
+    <script>
+        const myVariable = Vue.createApp({
+            data() {
+                return {
+                    text: "Hola Vue"
+                };
+            }
+        }).mount("#app");
+        console.log(myVariable)
+    </script>
+</body>
+</html>
