@@ -6,16 +6,25 @@
 </head>
 <body>
     <script src="https://unpkg.com/vue@next"></script>
-    <div id="app">{{text}}</div>
-    <script>
-        const myVariable = Vue.createApp({
-            data() {
-                return {
-                    text: "Hola Vue"
-                };
-            }
-        }).mount("#app");
-        console.log(myVariable)
+    <div id="app">
+    </div>
+    <script lang="ts">
+        const myMain = Vue.createApp({
+             data() {
+                 return {
+                     counter: 0,
+                 };
+             },
+            methods: {
+                 increment() {
+                     this.counter++;
+                 },
+                decrement() {
+                     this.counter--;
+                },
+            },
+            template: '<h1>{{counter}}</h1><button v-on:click="increment">+</button><button v-on:click="decrement">-</button>'
+         }).mount("#app")
     </script>
 </body>
 </html>
