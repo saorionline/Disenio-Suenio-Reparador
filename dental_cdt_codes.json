@@ -1,0 +1,66 @@
+{
+    "Office Visits/Exams": {
+        "Periodic Evaluation (6-month)": "D0120",
+        "Limited Evaluation (Emergency)": "D0140",
+        "Comprehensive Evaluation (New Patient)": "D0150",
+        "Periodontal Evaluation": "D0180",
+        "Full Mouth X-Rays (FMX)": "D0210",
+        "Bitewings (4 Films)": "D0274",
+        "Panoramic Film": "D0330"
+    },
+    "Preventive/Adjunctive": {
+        "Cleaning": "D1110",
+        "Fluoride": "D1208",
+        "Prophylaxis - Adult (Cleaning)": "D1110",
+        "Prophylaxis - Child": "D1120",
+        "Topical Fluoride": "D1208",
+        "Fluoride Varnish": "D1206",
+        "Sealant (per tooth)": "D1351",
+        "Occlusal Guard (Nightguard) - Hard": "D9944",
+        "Occlusal Guard (Nightguard) - Soft": "D9945",
+        "Occlusal Adjustment (Limited)": "D9951"
+    },
+    "Prosthodontics (Fixed & Removable)": {
+        "Complete Denture - Maxillary": "D5110",
+        "Complete Denture - Mandibular": "D5120",
+        "Pontic - Porcelain Fused to Metal": "D6240",
+        "Retainer Crown - Porcelain/Ceramic": "D6740"
+    },
+    "Restorative": {
+        "Filling": "D2140",
+        "Crown": "D2740",
+        "Amalgam (Silver) 1 Surface": "D2140",
+        "Resin (White) Anterior 1 Surface": "D2330",
+        "Resin (White) Posterior 1 Surface": "D2391",
+        "Porcelain/Ceramic Crown": "D2740",
+        "Core Buildup (including pins)": "D2950",
+        "Post and Core": "D2954",
+        "Palliative Treatment (Pain relief)": "D9110",
+        "Surgical placement of implant body. Always check if the office uses 'Medical Cross-Coding' for this.": "D6010"
+    },
+    "Periododontics": {
+        "SRP (4+ teeth per quadrant)": "D4341",
+        "SRP (1-3 teeth per quadrant)": "D4342",
+        "Periodontal Maintenance": "D4910",
+        "Full Mouth Debridement": "D4355"
+    },
+    "Endodontics": {
+        "Root Canal - Anterior": "D3310",
+        "Root Canal - Bicuspid": "D3320",
+        "Root Canal - Molar": "D3330"
+    },
+    "Oral Surgery": {
+        "Simple Extraction": "D7140",
+        "Surgical Extraction or Impacted Tooth": "D7210",
+        "Soft Tissue Impaction": "D7220",
+        "Bony Impaction": "D7240"
+    },
+    "New for 2026 (Expert Level)": {
+        "Point-of-care Saliva Analysis": "D0426",
+        "Comprehensive Cracked Tooth Testing": "D0461",
+        "Peri-implant Debridement (Single Implant)": "D6049",
+        "Occlusal Guard Cleaning and Inspection": "D9936",
+        "Duplication of Complete Denture - Maxillary": "D5877",
+        "Duplication of Complete Denture - Mandibular": "D5878"
+    }
+}
